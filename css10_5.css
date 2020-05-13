@@ -1,0 +1,86 @@
+body
+{
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+}
+h1{
+    font-size: 120px;
+    color: white;
+    border-width: thick;
+    border-style: double;
+    border-color: white;
+    padding: 1px;
+    margin: 5mm;
+    text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: black;
+}
+p.jump{
+  margin-top: 100px;
+  font-size: 40px;
+}
+p.lyrics{
+  font-size: 23;
+}
+p.obrazac{
+  margin-top: 100px;
+}
+p.popis{
+  text-align: center;
+}
+ul.a{
+  text-align: center;
+  color: white;
+  font-size: 23;
+}
+p.albumi{
+  text-align: left;
+  margin-top: 100px;
+  font-size: 40px;
+}
+ul.b{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+p.abc{
+  text-align: left;
+}
+p.efg{
+  text-align: left;
+  font-size: 25;
+}
+
+
